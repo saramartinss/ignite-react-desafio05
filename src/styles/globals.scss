@@ -4,4 +4,29 @@
   padding: 0;
 }
 
-// TODO
+:root {
+  --heading: #F8F8F8;
+  --body: #D7D7D7;
+  --info: #BBBBBB;
+  --background: #15181d;
+
+  --highlight: #FF57B2;
+}
+
+body {
+  background: var(--background);
+  color: var(--heading);
+}
+
+body, input, textarea, select, button {
+  font: 400 1rem "Roboto", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
